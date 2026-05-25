@@ -140,7 +140,7 @@ p {
     text-decoration: none;
 }
 
-.offer__sale {
+.offer__sale, .profession__counter-number, .profession__title {
     font-weight: 700;
     font-size: 58px;
     line-height: 100%;
@@ -200,6 +200,87 @@ p {
 .offer__6 {
     top: 736px;
     right: 609px;
+}
+
+.profession, .discover {
+    background: #FBFBFC;
+}
+
+.profession__upper-row {
+    display: flex;
+    flex-direction: row;
+    padding-top: 168px;
+    justify-content: space-between;
+    align-items: first baseline;
+}
+
+.profession__description {
+    color: #6D6D77;
+    margin-top: -20px;
+}
+
+.profession__counter {
+    display: flex;
+    flex-direction: row;
+    gap: 103px;
+}
+
+.profession__counter-hr {
+    height: 4px; 
+    background-color: #19191C;
+    border: none;
+    margin: 21px 0 18px;
+    width: 200px;
+}
+
+.profession__counter-text {
+    color: #6D6D77;
+}
+
+.profession__blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 168px 0 0;
+}
+
+.profession__block-base {
+    padding: 68px 50px;
+}
+
+.profession__block-base1 {
+    background: #DEEFE4;
+}
+
+.profession__block-base2 {
+    background: #F3F3D7;
+}
+.profession__block-base3 {
+    background: #EFDEEE;
+}
+
+.profession__block-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 100%;
+    margin: 0;
+}
+
+.profession__block-hr {
+    height: 4px; 
+    background-color: #19191C;
+    border: none;
+    margin: 28px 0 12px;
+    width: 360px;
+}
+
+.discover__title {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 100%;
+    margin: 0;
+
 }
 
 .footer {
