@@ -144,6 +144,7 @@ p {
     font-weight: 700;
     font-size: 58px;
     line-height: 100%;
+    margin: 0;
 }
 
 .offer__time {
@@ -216,7 +217,7 @@ p {
 
 .profession__description {
     color: #6D6D77;
-    margin-top: -20px;
+    margin-top: 28px;
 }
 
 .profession__counter {
@@ -280,7 +281,93 @@ p {
     font-size: 58px;
     line-height: 100%;
     margin: 0;
+    padding-top: 170px; /*під питанням*/
+    
+}
 
+.discover__blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: first baseline;
+    color: #FBFBFC;
+    padding: 100px 0 168px;
+    margin: 0;
+}
+
+.discover__block-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 100%;
+    margin:0;
+
+}
+
+.discover__block-list {
+    list-style: square;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    gap: 20px;
+}
+
+.discover__block-base {
+    width: 467px;
+    height: 732px;
+    padding: 48px 0 51px 68px;
+    display: flex;
+    flex-direction: column; 
+    align-items:start;
+    justify-content:space-between;
+}
+
+.discover__block-base1, .discover__block-base3 {
+    background: #DEEFE4;
+    color: #19191C;
+}
+
+.discover__block-base2 {
+    background: #504DEE;
+    color: #FBFBFC;
+}
+
+.discover__price-total {
+    color: #6D6D77;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    margin:0;
+}
+
+.discover__block-base2 .discover__price-total {
+    color: #FBFBFC;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    margin:0;
+}
+
+.discover__price-monthly {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 100%;
+    margin: 3px 0 18px;
+}
+
+.discover__choose {
+    font-weight: 700;
+    font-size: 24px;
+    background-color: #19191C;
+    color: #FBFBFC;
+    line-height: 26px;
+    padding: 16px 36px;
+    
+}
+
+.discover__block-base2 .discover__choose {
+    background-color: #FBFBFC;
+    color: #504DEE;      
 }
 
 .footer {
@@ -288,6 +375,7 @@ p {
     display: flex;
     flex-direction: column;
 }
+
 
 .footer__up {
     background: #19191C;
