@@ -12,7 +12,9 @@ body {
 .container {
     width: 1440px;
     margin: 0 auto;
+    position: relative;
 }
+
 
 .header {
     display: flex;
@@ -85,11 +87,11 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     padding: 0 0 230px;
-    background: 
-    url(../img/female.png) 140% 100% no-repeat,
-    url(../img/Rectangle\ 107.svg) 100% 100% no-repeat;
     
+    overflow: hidden;
     min-height: 1000px;
+    margin: 0 auto;
+    
 }
 
 p {
@@ -99,7 +101,7 @@ p {
 .offer__holder {
     width: 648px;
     padding-top: 167px; 
-    background: url(../img/Ellipse\ 20.png) 200% 0% no-repeat;
+    
 }
 
 .offer__months {
@@ -159,7 +161,7 @@ p {
     list-style: none;
     padding: 0;
     margin: 0;
-    position: relative;
+    
 }
 
 .offer__item  {
