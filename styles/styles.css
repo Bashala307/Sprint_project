@@ -254,7 +254,7 @@ p {
 }
 
 .profession__block-base {
-    padding: 68px 50px;
+    padding: 60px 43px;
 }
 
 .profession__block-base1 {
@@ -390,7 +390,7 @@ p {
     display: flex;
     flex-direction: row;
     margin: 0;
-    justify-content: space-between;
+    gap: 100px;
     
     padding-top: 68px;    
     padding-bottom: 100px;
@@ -400,7 +400,8 @@ p {
 .contacts {
     display: flex;
     flex-direction: column;
-    gap: 48px;    
+    gap: 48px; 
+    font-style: normal;   
 }
 
 .contact__logo .contact__link {
@@ -414,6 +415,12 @@ p {
     display: flex;
     flex-direction: column;
     gap: 28px;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
 }
 
 .sitemap {
@@ -484,6 +491,50 @@ p {
 
 .profession__container {
     flex-wrap: wrap;
+}
+
+.discover__choose, .header__btn {
+    border: none;    
+    cursor: pointer;
+    transition: background-color 0.3s ease, outline 0.2s ease; 
+}
+
+
+.discover__choose:hover, .header__btn:hover {
+    background-color: #333336;
+}
+ 
+.discover__choose:focus, .header__btn:focus,
+ a:focus, .offer__button:focus {
+    background-color: #333336;
+    outline: 3px solid #7B61FF; 
+    outline-offset: 2px;
+}
+
+
+.discover__choose:active, .header__btn:active, .offer__button:active {
+    background-color: #000000; 
+    transform: scale(0.98); 
+}
+
+header a:hover, header a:focus,
+.discover__block-base2 .discover__choose:hover,
+.discover__block-base2 .discover__choose:focus {
+    background-color: #b9b9b9;
+}
+
+.offer__button:hover, .offer__button:focus {
+    background-color: #7270e7;
+}
+
+.offer__button:active {
+    background-color: #504DEE;
+}
+
+.logo:hover, .logo:focus {
+    background-color: transparent;
+    outline: none;
+    border:none;
 }
 
 @media screen and (max-width: 1439px) {
